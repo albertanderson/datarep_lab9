@@ -7,12 +7,12 @@ export class MovieItem extends React.Component {
         return (
             <div>
                 <Card>
-                    <Card.Header>{this.props.movie.Title}</Card.Header>
+                    <Card.Header>{this.props.movie.title}</Card.Header>
                     <Card.Body>
                         <blockquote className="blockquote mb-0">
-                            <img src={this.props.movie.Poster} width="200" height="200"></img>
+                            <img src={this.props.movie.poster} width="200" height="200"></img>
                             <footer className="blockquote-footer">
-                                {this.props.movie.Year}
+                                {this.props.movie.year}
                             </footer>
                         </blockquote>
                     </Card.Body>
